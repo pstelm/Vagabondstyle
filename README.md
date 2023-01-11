@@ -5,7 +5,7 @@ First webpage I've fully created, from the design to the implementation and host
 If you have any suggestions, feel free to contact me!
 
 ## Tools I've used
-Created with HTML and CSS (SASS), with layout based on flexbox. I used simple Javascript - mainly for aestetic purposes - and FormSubmit email service for contact form.
+Created with HTML and CSS (SCSS), with layout based on flexbox. I used simple Javascript - mainly for aestetic purposes - and FormSubmit email service for contact form.
 
 ## What I learned
 - It gave me rough idea on how my design process should look like, as this was my first project for someone else.
