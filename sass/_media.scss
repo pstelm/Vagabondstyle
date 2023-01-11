@@ -1,0 +1,291 @@
+@media (min-width: 576px) {
+	.section {
+		padding: 10em 2em;
+	}
+
+	.section-title {
+		//text-align: left;
+		font-size: 4.2rem;
+	}
+
+	// HEADER
+	.header {
+		padding: 4em;
+
+		&__title {
+			font-size: 5.2rem;
+		}
+
+		&__wave {
+			display: block;
+			height: 40px;
+			background-image: url('../img/wave-white-long.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		&__text {
+			font-size: 2.4rem;
+		}
+	}
+
+	.offer {
+		&__box {
+			padding: 0;
+		}
+
+		&__cards {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			width: 100%;
+		}
+
+		&__card {
+			width: 50%;
+			padding: 2em;
+			padding-bottom: 0;
+		}
+
+		&__img {
+			left: 70%;
+		}
+	}
+
+	// ABOUT
+	.about {
+		padding-bottom: 18em;
+
+		&__info {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		&__img {
+			max-width: 40%;
+			margin-top: 0;
+			margin-bottom: 2em;
+		}
+
+		&__text {
+			width: 60%;
+			padding-top: 0;
+			padding-left: 2em;
+			text-align: left;
+
+			&--left {
+				width: 60%;
+				padding-left: 0;
+				padding-right: 2em;
+			}
+
+			&:last-child {
+				padding-left: 0;
+				width: 100%;
+			}
+		}
+	}
+
+	// COLLAB
+	.collab {
+		&__boxes {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 20px 20px;
+		}
+	}
+
+	//CONTACT
+	.contact {
+		&__form-label {
+			margin-left: 0;
+		}
+
+		&__form-btn {
+			align-self: auto;
+			max-width: 300px;
+			//border-radius: 5px;
+		}
+	}
+
+	// FOOTER
+	.footer {
+		&__logo {
+			width: 40%;
+			text-align: center;
+		}
+
+		&__contact {
+			width: 30%;
+		}
+
+		&__socials {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			width: 30%;
+			margin: 0 auto;
+		}
+
+		&__link {
+			padding: 0;
+			margin-top: 0.5em;
+			font-size: 1.2rem;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+
+		&__text {
+			display: inline;
+			padding-left: 1em;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		scroll-padding-top: 70px;
+	}
+
+	.section-title {
+		font-size: 4.4rem;
+	}
+
+	// NAV
+	.nav {
+		height: 70px;
+		padding: 0 3em 0 3em;
+
+		&__text {
+			display: block;
+		}
+	}
+
+	// HEADER
+	.header {
+		// margin-top: 70px;
+		padding: 6em;
+
+		&__title {
+			font-size: 6.2rem;
+		}
+
+		&__text {
+			font-size: 2.8rem;
+		}
+	}
+
+	//.offer {
+	// &__cards {
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	flex-wrap: wrap;
+	// 	width: 100%;
+	// }
+
+	// &__card {
+	// 	width: 50%;
+	// 	padding: 2em;
+	// }
+
+	// &__img {
+	// 	left: 75%;
+	// 	max-width: 150px;
+	// }
+	//}
+}
+
+@media (min-width: 992px) {
+	.section {
+		padding: 10em 4em;
+	}
+
+	.header {
+		&__title {
+			font-size: 7.2rem;
+		}
+
+		&__wave {
+			height: 50px;
+		}
+	}
+
+	.about {
+		padding-bottom: 18em;
+	}
+
+	.offer {
+		&__cards {
+			justify-content: space-between;
+		}
+
+		&__card {
+			width: 30%;
+			padding: 2em;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		scroll-padding-top: 80px;
+	}
+
+	// NAV
+	.nav {
+		height: 80px;
+		padding: 0 10em 0 10em;
+
+		&__text {
+			font-size: 4.2rem;
+		}
+
+		&__menu {
+			top: 0;
+			left: 75%;
+			width: 25%;
+		}
+	}
+
+	// HEADER
+	.header {
+		padding: 8em;
+		//@include heroImages('../img/photos/hero-lg.jfif');
+		@include heroImages('../img/photos/forest-lg.jfif');
+
+		&__title {
+			font-size: 8.2rem;
+		}
+
+		&__wave {
+			background-image: url('../img/wave-white-long.png');
+		}
+
+		&__text {
+			font-size: 3.2rem;
+		}
+	}
+
+	.offer {
+		&__box {
+			padding: 0;
+		}
+		&__title {
+			font-size: 2.6rem;
+		}
+
+		&__text {
+			font-size: 1.8rem;
+		}
+	}
+
+	.about {
+		&__text {
+			font-size: 1.8rem;
+		}
+	}
+}
