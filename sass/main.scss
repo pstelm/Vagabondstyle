@@ -45,7 +45,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	text-decoration: underline wavy $accent-color;
-	text-underline-offset: 15px;
+	text-underline-offset: 10px;
 }
 
 // ---------- NAVIGATION ----------
@@ -161,7 +161,7 @@ body {
 	height: 100vh;
 	padding: 2em;
 	color: $pure-white;
-	@include heroImages('../img/photos/hero-lg.jpeg');
+	@include heroImages('../img/photos/forest-lg.jfif');
 	text-align: center;
 	text-shadow: 0 0 15px $dark;
 
@@ -231,9 +231,9 @@ body {
 // ---------- OFFER ----------
 
 .offer {
+	padding: 9em 0 10em;
 	position: relative;
-	overflow: hidden;
-	//background-color: $main-light;
+	//overflow: hidden;
 	background-color: $off-white;
 
 	&__card {
@@ -314,18 +314,18 @@ body {
 	}
 
 	&__box--one {
-		@include heroImagesLight('../img/collab_1/collab1-3.jpg');
+		@include heroImagesGreen('../img/collab_1/collab1-3.jpg');
 	}
 
 	&__box--two {
-		@include heroImagesLight('../img/collab_2/collab2.jpg');
+		@include heroImagesGreen('../img/collab_2/collab2.jpg');
 	}
 
 	&__box--three {
-		@include heroImagesLight('../img/collab_3/collab3.jfif');
+		@include heroImagesGreen('../img/collab_3/collab3.jfif');
 	}
 	&__box--four {
-		@include heroImagesLight('../img/collab_4/collab4.jpg');
+		@include heroImagesGreen('../img/collab_4/collab4.jpg');
 	}
 
 	&__logo {
@@ -347,12 +347,12 @@ body {
 
 .contact {
 	background-color: $off-white;
-	font-size: 1.6rem;
 
 	&__form,
 	&__form-top {
 		display: flex;
 		flex-direction: column;
+		font-size: 1.6rem;
 	}
 
 	&__form-label {
@@ -366,15 +366,17 @@ body {
 
 	&__form-textarea {
 		@include contactForm;
-		max-width: 100%;
-		min-width: 100%;
+		max-width: calc(100% - 2em);
+		min-width: calc(100% - 2em);
 		min-height: 200px;
 		font-family: 'Montserrat', sans-serif;
 	}
 
 	&__form-btn {
 		align-self: center;
-		width: 90%;
+		width: calc(100% - 2em);
+		//width: 100%;
+		margin-top: 0.5em;
 		padding: 0.8em 1.6em;
 		background-color: $main-medium;
 		color: $pure-white;

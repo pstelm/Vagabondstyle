@@ -29,15 +29,16 @@
 	background-size: cover;
 }
 
-@mixin heroImagesLight($bgImg) {
-	background-image: $light-gradient, url($bgImg);
+@mixin heroImagesGreen($bgImg) {
+	background-image: $green-gradient, url($bgImg);
 	background-position: center;
 	background-size: 100%;
 }
 
 @mixin contactForm {
-	margin-bottom: 1em;
-	padding: .5em 1em;
+	// margin-bottom: 1em;
+	margin: 0 1em 1em 1em;
+	padding: 0.5em 1em;
 	border: none;
 	font-size: 1.6rem;
 }

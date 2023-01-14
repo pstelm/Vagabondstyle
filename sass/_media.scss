@@ -31,6 +31,8 @@
 	}
 
 	.offer {
+		padding: 9em 2em 10em;
+
 		&__box {
 			padding: 0;
 		}
@@ -107,6 +109,16 @@
 			align-self: auto;
 			max-width: 300px;
 			//border-radius: 5px;
+		}
+
+		&__form-input,
+		&__form-textarea {
+			margin: 0 0 1em 0;
+		}
+
+		&__form-textarea {
+			min-width: 100%;
+			max-width: 100%;
 		}
 	}
 

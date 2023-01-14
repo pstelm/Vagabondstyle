@@ -1,11 +1,11 @@
 $pure-white: #fff;
 $off-white: #ebebeb;
-$dark: #00210B;
+$dark: #00210b;
 $dark-transparent: rgba(0, 0, 0, 0.5);
 
 $main-light: #fff;
-$main-medium: #5b7242;
-$main-dark: #203D14;
+$main-medium: rgb(91, 114, 66);
+$main-dark: rgb(32, 61, 20);
 
 $red-logo-color: #4d0712; // bordowe logo
 
@@ -13,4 +13,10 @@ $accent-color: #d1d306;
 
 $dark-gradient: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 
-$light-gradient: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+//$light-gradient: linear-gradient(45deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+
+$green-gradient: linear-gradient(
+	45deg,
+	rgba(32, 61, 20, 0.6),
+	rgba(32, 61, 20, 0.6)
+);
