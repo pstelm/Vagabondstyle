@@ -32,7 +32,7 @@
 @mixin heroImagesGreen($bgImg) {
 	background-image: $green-gradient, url($bgImg);
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 }
 
 @mixin contactForm {
