@@ -9,5 +9,5 @@ Created with HTML and CSS (SCSS), with layout based on flexbox. I used simple Ja
 
 ## What I learned
 - It gave me rough idea on how my design process should look like, as this was my first project for someone else (or more "with someone else in mind").
-- How important it is to check the desing on all browsers. In my case both accent waves changed site width on Apple products. I've read that apparently Safari overlooks `overflow` when rendering, so you have to target the body/html tag better.
+- How important it is to check the design on all browsers. In my case both accent waves changed site width on Apple products. I've read that apparently Safari overlooks `overflow` when rendering, so you have to target the body/html tag better.
 - Tiny bit of Photoshop. ;)
